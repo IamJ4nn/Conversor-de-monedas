@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 import javax.swing.UIManager;
 import javax.swing.plaf.ColorUIResource;
 
-public class Menu extends JFrame {
+public class Conversor extends JFrame {
     public static void main(String[] args) {
         // Se cambia la configuración estética de los paneles
         UIManager.put("OptionPane.background", new ColorUIResource(36, 36, 36));
