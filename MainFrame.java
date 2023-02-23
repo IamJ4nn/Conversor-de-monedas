@@ -16,4 +16,9 @@ public class MainFrame extends JFrame {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
     }
+
+    public static void main(String[] args) {
+        MainFrame myWindow = new MainFrame();
+        myWindow.initialize();
+    }
 }
